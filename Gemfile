@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.0"
+ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 6.1.6"
@@ -9,7 +9,7 @@ gem "rails", "~> 6.1.6"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-
+gem 'bootstrap', '~> 4.6.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -53,6 +53,10 @@ gem "net-smtp"
 gem 'devise'
 
 gem 'webpacker'
+
+gem 'jquery-rails'
+
+gem 'devise-bootstrap-views', '~> 1.0'
 
 group :production do
   gem 'pg'
