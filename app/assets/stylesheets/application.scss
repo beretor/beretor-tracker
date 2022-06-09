@@ -1,0 +1,31 @@
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+
+@import "font-awesome";
+
+
+//*
+ //*= require_tree .
+ //*= require_self
+//*
+
+.navbar-brand {
+    font-size: 10rem;
+} 
+
+.search-area {
+    padding-top: 50px;
+} 
+
+.no-right-padding {
+    padding-right: 0 !important;
+}
+
+
+.no-left-padding {
+    padding-left: 0 !important;
+}
+
+.results-block {
+    display: inline-block;
+} 

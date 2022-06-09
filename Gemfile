@@ -9,7 +9,7 @@ gem "rails", "~> 6.1.6"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-gem 'bootstrap', '~> 4.6.1'
+
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -47,18 +47,23 @@ gem "sassc-rails"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-
+gem "font-awesome-rails"
 gem "net-smtp"
 
 gem 'devise'
 
 gem 'webpacker'
+#gem 'bootstrap', '~> 5.1.3'
 
-gem 'jquery-rails'
+#gem 'jquery-rails'
 
 gem 'devise-bootstrap-views', '~> 1.0'
 
+#gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+
 gem 'iex-ruby-client'
+
+#gem "twitter-bootstrap-rails"
 
 group :production do
   gem 'pg'
@@ -74,6 +79,7 @@ group :development do
   gem "web-console"
   # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
+gem 'byebug'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
